@@ -151,7 +151,7 @@ function Navbar() {
                 <div className="hidden lg:ml-8 lg:flex">
                   <a href="#" className="flex items-center text-gray-700 ">
                     <img
-                      src="https://ecommerce-sk.vercel.app/img/indiaflag.png"
+                      src="https://img.freepik.com/free-vector/illustration-pakistan-flag_53876-27123.jpg"
                       alt=""
                       className="block h-auto w-5 flex-shrink-0"
                     />
