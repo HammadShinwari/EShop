@@ -11,13 +11,13 @@ function ProductCard() {
 
                 <div class="lg:w-1/2 w-full mb-6 lg:mb-10">
                     <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900" style={{ color: mode === 'dark' ? 'white' : '' }}>Our Latest Collection</h1>
-                    <div class="h-1 w-20 bg-pink-600 rounded"></div>
+                    <div class="h-1 w-20 bg-hoverColor rounded"></div>
                 </div>
 
                 <div className="flex flex-wrap -m-4">
 
                     <div className="p-4 md:w-1/4  drop-shadow-lg " >
-                        <div className="h-full border-2 hover:shadow-gray-100 hover:shadow-2xl transition-shadow duration-300 ease-in-out    border-gray-300 border-opacity-80 rounded-2xl overflow-hidden" style={{ backgroundColor: mode === 'dark' ? 'rgb(46 49 55)' : '', color: mode === 'dark' ? 'white' : '', }} >
+                        <div className="h-full border-2 hover:shadow-gray-100 hover:shadow-2xl transition-shadow duration-300 ease-in-out    border-gray-200 border-opacity-80 rounded-2xl overflow-hidden" style={{ backgroundColor: mode === 'dark' ? 'rgb(46 49 55)' : '', color: mode === 'dark' ? 'white' : '', }} >
                             <div className="flex justify-center cursor-pointer" >
                                 <img className=" rounded-2xl w-full h-80 p-2 hover:scale-110 transition-scale-110  duration-300 ease-in-out" src="https://dummyimage.com/720x400" alt="blog" />
                             </div>
